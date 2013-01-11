@@ -1,4 +1,4 @@
-<?
+<?php
 $save_folder = dirname(__FILE__) . "/audio";
 if(! file_exists($save_folder)) {
   if(! mkdir($save_folder)) {
